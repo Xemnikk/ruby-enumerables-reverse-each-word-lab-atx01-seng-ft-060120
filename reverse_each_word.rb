@@ -3,4 +3,3 @@ def reverse_string(str)
   new_arr = arr.collect {|a| a.reverse! + (" ")}
   new_arr.join
 end
-puts reverse_string("Hello mate")
